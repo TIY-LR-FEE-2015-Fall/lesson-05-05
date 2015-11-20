@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Backbone Project</title>
+
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="row">
+      <p class="total"></p>
+    </div>
+    <div class="row">
+      <p class="clear">AC</p>
+      <p class="sign">+/-</p>
+      <p class="percent">%</p>
+      <p class="action">/</p>
+    </div>
+    <div class="row">
+      <p class="number">7</p>
+      <p class="number">8</p>
+      <p class="number">9</p>
+      <p class="action">X</p>
+    </div>
+    <div class="row">
+      <p class="number">4</p>
+      <p class="number">5</p>
+      <p class="number">6</p>
+      <p class="action">-</p>
+    </div>
+    <div class="row">
+      <p class="number">1</p>
+      <p class="number">2</p>
+      <p class="number">3</p>
+      <p class="action">+</p>
+    </div>
+    <div class="row">
+      <p class="number large-number">0</p>
+      <p class="number">.</p>
+      <p class="action">=</p>
+    </div>
+  </div>
+
+  <script src="vendor.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <script>
+    require(['app'], function(app) {
+      app();
+    });
+  </script>
+</body>
+</html>
