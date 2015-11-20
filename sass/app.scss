@@ -20,10 +20,22 @@ p {
   background: #9e9e9e;
 }
 
+.total {
+  text-align: right;
+}
+
 .action {
   background: #cf9432;
 }
 
 .large-number {
   flex: 2.3 50%;
+}
+
+.clear::before {
+  content: 'C';
+}
+
+.clear-total .clear::before {
+  content: "AC";
 }
