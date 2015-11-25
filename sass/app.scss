@@ -37,5 +37,5 @@ p {
 }
 
 .clear-total .clear::before {
-  content: "AC";
+  content: attr(data-oncleartotal);
 }
